@@ -1,0 +1,153 @@
+* {
+    font-family: "Sofia", sans-serif;
+    background-color: 	#00FFFF;
+}
+.title{
+    padding: 1%;
+    margin: -1%;
+}
+.title> p{
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 1%;
+}
+#input-box{
+    background-color: 	#8A2BE2;
+    border-bottom-style:double;
+    border: none;
+    border-radius: 5px;
+    outline:none;
+    text-align: left;
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 2.5rem;
+    margin: 0% 0% 1% 41%;
+    padding-left: .5rem;
+   
+}
+#word-tab{
+    color: blue;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3%;
+    transition: 0.5s;
+}
+#word-tab:hover{
+    font-size: 3rem;
+    transition: 0.5s;
+}
+
+.input-field > p{
+    font-weight: 10px;
+}
+#time-tag{
+    color: black;
+    font-size: 2rem;
+    margin: 0% 0% auto 41%;
+}
+
+#score-tag{
+    color: black;
+    font-weight: 200;
+    font-size: 2rem;
+    margin: 0% 0% auto 41%;
+}
+
+#wrong-tag{
+    color: black;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0% 0% auto 41%;
+}
+.keyboard-tab *{
+    transition: .2s;
+}
+
+.keyboard-top > button{
+    background-color: #00FFFF;
+    font-size: 1.6rem;
+    border: 0;
+    border-radius: 4px;
+    width: 5rem;
+    height: 5rem;
+    margin-left: .3%;
+    margin-top: 3%;
+}
+#Q-key{
+    margin-left: 23%;
+}
+#back-key{
+    background-color: #00FFFF;
+    font-size: 1.5rem;
+    border: 0;
+    border-radius: 3px;
+    width: fit-content;
+    height: 5rem;
+    position: relative;
+    float: left;
+    margin-left: 72%;
+    margin-top: -4.18%;
+}
+.keyboard-mid > button{
+    background-color: #00FFFF;
+    font-size: 1.6rem;
+    border: 0;
+    border-radius: 4px;
+    width: 5rem;
+    height: 5rem;
+    margin-left: .3%;
+    margin-top: .3%;
+}
+
+#A-key{
+    margin-left: -52%;
+}
+
+.keyboard-bot > button{
+    background-color: #00FFFF;
+    font-size: 1.6rem;
+    border: 0;
+    border-radius: 4px;
+    width: 5rem;
+    height: 5rem;
+    margin-left: .3%;
+    margin-top: .3%;
+}
+
+#Z-key{
+    margin-left: 30.5%;
+}
+
+#space-key{
+    background-color: #00FFFF;
+    font-size: 1.6rem;
+    border: 0;
+    border-radius: 4px;
+    width: 32rem;
+    height: 5rem;
+    position: relative;
+    margin-left: 33.3%;
+    margin-top: .3%;
+}
+
+
+#restart-btn{
+    background-color: #00FFFF;
+    border: 0;
+    padding: .5rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin: 2% 0% -100% 47%;
+    box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.58);
+    -webkit-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.58);
+    -moz-box-shadow: 3px 4px 5px -1px rgba(0,0,0,0.58);
+}
+
+
+#restart-btn:hover{
+    cursor: pointer;
+    background-color: #008B8B;
+}
