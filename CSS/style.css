@@ -2,12 +2,11 @@
     font-family: "Sofia", sans-serif;
     background-color: 	#00FFFF;
 }
-.title{
+.h1{
     padding: 1%;
     margin: -1%;
 }
 .title> p{
-    text-transform: uppercase;
     font-weight: 400;
     text-align: center;
     font-size: 4rem;
@@ -15,7 +14,7 @@
 }
 #input-box{
     background-color: 	#8A2BE2;
-    border-bottom-style:double;
+    border-bottom-style: double;
     border: none;
     border-radius: 5px;
     outline:none;
@@ -24,8 +23,7 @@
     width: 20rem;
     height: 2.5rem;
     margin: 0% 0% 1% 41%;
-    padding-left: .5rem;
-   
+    
 }
 #word-tab{
     color: blue;
